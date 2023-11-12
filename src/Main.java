@@ -24,5 +24,15 @@ public class Main {
         System.out.println("Название книги: " + darklyDreamingDexter.getName() + "\n"
                 + "Автор: " + darklyDreamingDexter.getAuthor() + "\n"
                 + "Год издания: " + darklyDreamingDexter.getYear() + "\n");
+
+                System.out.println(darklyDreamingDexter.equals(metro2033));
+
+                System.out.println(glukhovskyD.hashCode());
+
+                System.out.println(glukhovskyD.toString());
+
+                System.out.println(darklyDreamingDexter.toString());
+
+                System.out.println(darklyDreamingDexter.hashCode());
     }
 }
